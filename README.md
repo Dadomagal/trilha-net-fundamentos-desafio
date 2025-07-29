@@ -1,7 +1,7 @@
 # DIO - Trilha .NET - Fundamentos
 www.dio.me
 
-## Desafio de projeto
+##Desafio de projeto 
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
 
 ## Contexto
@@ -36,3 +36,22 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+
+## Resolução do projeto
+No método "AdicionarVeiculo()" foi feita a implementação da lógica de receber uma placa e ver se está enquadrada no padrão de placas do Mercosul. Ex: AAA-1111 ou AAA1A11. Caso não esteja em conformidade com o padrão, um erro é retornado.
+
+No método "RemoverVeiculo()" foi implementada a verificação da placa de carros, na lista veiculos; além da verificação do cálculo de horas e do preço final, sendo definido por "valorTotal = precoInicial + precoPorHora * horas;" e com as horas assumindo o valor passado em totalHoras.
+
+Por fim, em "ListarVeiculos()", foi aplicado um laço foreach iterando em cima de cada item na lista de veículos, imprimindo uma saída separada por placas.
+
+TODO List:
+
+[x] implementar o cadastro dos veículos por placa
+
+[x] pedir para o usuário incluir a placa e o total de horas que o veículo ficou estacionado.
+
+[x] remover a placa e analisar qual o total pago pelo tempo de uso do estacionamento.
+
+[x] listar os veículos disponíveis utilizando um laço de repetição.
+

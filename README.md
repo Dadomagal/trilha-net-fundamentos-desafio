@@ -1,7 +1,7 @@
 # DIO - Trilha .NET - Fundamentos
 www.dio.me
 
-##Desafio de projeto 
+## Desafio de projeto 
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
 
 ## Contexto
@@ -47,11 +47,8 @@ Por fim, em "ListarVeiculos()", foi aplicado um laço foreach iterando em cima d
 
 TODO List:
 
-[x] implementar o cadastro dos veículos por placa
-
-[x] pedir para o usuário incluir a placa e o total de horas que o veículo ficou estacionado.
-
-[x] remover a placa e analisar qual o total pago pelo tempo de uso do estacionamento.
-
-[x] listar os veículos disponíveis utilizando um laço de repetição.
+- [x] implementar o cadastro dos veículos por placa
+- [x] pedir para o usuário incluir a placa e o total de horas que o veículo ficou estacionado.
+- [x] remover a placa e analisar qual o total pago pelo tempo de uso do estacionamento.
+- [x] listar os veículos disponíveis utilizando um laço de repetição.
 

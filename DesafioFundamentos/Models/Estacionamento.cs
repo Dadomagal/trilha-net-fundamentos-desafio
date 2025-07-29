@@ -59,7 +59,7 @@ namespace DesafioFundamentos.Models
                 decimal valorTotal = 0;
 
                 var totalHoras = Convert.ToInt32(Console.ReadLine());
-                if (totalHoras != 0)
+                if (totalHoras > 0)
                 {
                     horas = totalHoras;
                     valorTotal = precoInicial + precoPorHora * horas;
